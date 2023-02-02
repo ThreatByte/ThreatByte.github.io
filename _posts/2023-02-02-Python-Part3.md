@@ -14,5 +14,14 @@ while age < 6:
   print("Hi")
   age = age + 1
   
+#Break Break out of something
+
+break
+
+#Continue Jumps Back To Start Loop
+
+continue
+
+
 ```
 
