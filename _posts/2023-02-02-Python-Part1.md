@@ -18,7 +18,7 @@ input()
 
 #Expression
 3 + 3, 3 - 3, 3 / 3, 3 // 4, 3 * 3, 3 ** 3 
-**, *, /, //, %
+**, *, /, //, % Order Presedence
 
 #Data Type
 Integers -2, -1, 0, 1, 2, 3, 4, 5
