@@ -6,9 +6,12 @@ title: Python Part 1
 General Purpose Language
 
 ```python
-first_name = input("Enter Your First Name ")
-if first_name == "Chris":
-  print("This Works")
-else:
-  print("This Doesnt Work")
+#Outputs Console
+print()
+
+#Variable Store Info Memory
+Name = "Bob"
+
+#Input(Gets Input)
+input("Enter a Input")
 ```
