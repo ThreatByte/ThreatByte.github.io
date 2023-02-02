@@ -5,7 +5,7 @@ title: Python Part 1
 
 General Purpose Language
 
-```{python}
+```python
 first_name = input("Enter Your First Name ")
 if first_name == "Chris":
   print("This Works")
