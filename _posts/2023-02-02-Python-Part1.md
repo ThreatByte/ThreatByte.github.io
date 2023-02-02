@@ -34,6 +34,4 @@ For - Loop x Times
 if Do Something:
 else:
 elif:
-
-
 ```
