@@ -27,7 +27,8 @@ Strings 'a', 'aa'
 ```
 
 -------------------------------------------------------------------------------------------------
-'''python
+```python
+
 #Example Enter your Name, Age, and output Name and Age
 Name = input("Please Enter Your Name")
 
@@ -35,4 +36,4 @@ Age = input("Please Enter Your Age")
 
 print("Your Name is " + Name + "Your Age is " + Age)
 
-'''
+```
