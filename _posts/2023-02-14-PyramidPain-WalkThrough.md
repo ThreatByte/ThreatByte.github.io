@@ -110,6 +110,8 @@ https://i.gyazo.com/771ca91a82fd02032ae4f6b7de0ac90e.mp4
 # Question 21
 ![image](https://user-images.githubusercontent.com/122228333/218906966-966e308d-6616-4ae3-8b2f-9e9bcd2feb5b.png)
 
+# Answer 21
+https://i.gyazo.com/17cbadd09d15fdd5a1ba2ff800e5a635.mp4
 
 
 
