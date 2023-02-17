@@ -7,14 +7,19 @@ title: Mitre Att&ck
 
 # Question 
 
+![image](https://user-images.githubusercontent.com/122228333/219716587-849da385-7490-4923-9927-a5857691bca2.png)
+
+
 # Answer
+https://i.gyazo.com/be81520ab612288c44b3d915572240b5.mp4
 
 
 # Question 2
+![image](https://user-images.githubusercontent.com/122228333/219742199-34f4087a-5361-4d1f-9ebe-a792aee69c0f.png)
 
 
 # Answer 2
-
+https://i.gyazo.com/8c5f9fc2319c02da171206eee9aa0144.mp4
 
 # Question 3
 
