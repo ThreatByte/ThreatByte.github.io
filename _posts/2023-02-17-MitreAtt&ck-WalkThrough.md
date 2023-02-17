@@ -51,10 +51,10 @@ https://i.gyazo.com/0f36add3c61b8820f5440c9cff6b0178.mp4
 ![image](https://user-images.githubusercontent.com/122228333/219794376-e83d32ae-010f-4c59-b8c4-478e051598c8.png)
 
 # Question 11 & Answer 11 
+![image](https://user-images.githubusercontent.com/122228333/219798043-14800656-4401-4fed-b84d-c39ccaf197b8.png)
 
+# Question 12 & Answer 12
 
-
-# Question 13
 
 
 # Answer 13
