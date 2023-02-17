@@ -22,10 +22,11 @@ https://i.gyazo.com/be81520ab612288c44b3d915572240b5.mp4
 https://i.gyazo.com/8c5f9fc2319c02da171206eee9aa0144.mp4
 
 # Question 3
+![image](https://user-images.githubusercontent.com/122228333/219752881-6ca9d05d-ede8-4f3f-91d2-d806380163ca.png)
 
 
 # Answer 3
-
+https://i.gyazo.com/0f36add3c61b8820f5440c9cff6b0178.mp4
 
 # Question 4
 
