@@ -28,31 +28,27 @@ https://i.gyazo.com/8c5f9fc2319c02da171206eee9aa0144.mp4
 # Answer 3
 https://i.gyazo.com/0f36add3c61b8820f5440c9cff6b0178.mp4
 
-# Question 4
+# Question 4 & Answer 4
+![image](https://user-images.githubusercontent.com/122228333/219789874-1a6c3804-a4b4-45d7-9d76-2523ec562347.png)
 
 
-# Answer 5
+# Question 5 & Answer 5
+![image](https://user-images.githubusercontent.com/122228333/219790395-1ac17858-d549-433c-9860-6243552af94b.png)
 
+# Question 6 & Answer 6
+![image](https://user-images.githubusercontent.com/122228333/219790561-cec6014a-53e4-445d-9f83-289114dc95af.png)
 
-# Question 6
+# Question 7 & Answer 7 
+![image](https://user-images.githubusercontent.com/122228333/219790726-ae206947-d7ef-41b7-91a6-8f3d76c5fcc9.png)
 
+# Question 8 & Answer 8
+![image](https://user-images.githubusercontent.com/122228333/219791285-7bb1e5d3-5334-4c68-a6cc-6c91e0ddb5db.png)
 
-# Answer 7
+# Question 9 & Answer 9
+![image](https://user-images.githubusercontent.com/122228333/219791732-1fc8578a-8fc6-40e7-b9c8-bc68636fe92b.png)
 
+# Question 10 & Answer 10
 
-# Question 8
-
-
-# Answer 8
-
-
-# Question 9
-
-
-# Answer 10
-
-
-# Question 11
 
 # Answer 12
 
