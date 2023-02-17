@@ -48,9 +48,10 @@ https://i.gyazo.com/0f36add3c61b8820f5440c9cff6b0178.mp4
 ![image](https://user-images.githubusercontent.com/122228333/219791732-1fc8578a-8fc6-40e7-b9c8-bc68636fe92b.png)
 
 # Question 10 & Answer 10
+![image](https://user-images.githubusercontent.com/122228333/219794376-e83d32ae-010f-4c59-b8c4-478e051598c8.png)
 
+# Question 11 & Answer 11 
 
-# Answer 12
 
 
 # Question 13
