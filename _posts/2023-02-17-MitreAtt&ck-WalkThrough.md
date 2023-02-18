@@ -54,35 +54,47 @@ https://i.gyazo.com/0f36add3c61b8820f5440c9cff6b0178.mp4
 ![image](https://user-images.githubusercontent.com/122228333/219798043-14800656-4401-4fed-b84d-c39ccaf197b8.png)
 
 # Question 12 & Answer 12
+https://gyazo.com/8739e6ab007e907578731f5f904bcb8c
 
 
-
-# Answer 13
-
-
-# Question 14
+# Question 13 & Answer 13 
+![image](https://user-images.githubusercontent.com/122228333/219861635-ea949da0-c925-4497-b795-3f065d587d3d.png)
 
 
-# Answer 14
+# Question 14 & Answer 14
+![image](https://user-images.githubusercontent.com/122228333/219863621-65173222-c14e-4adc-80cd-7a411cd17f4f.png)
 
 
-# Question 15
-
-# Answer 15
-
-
-# Question 16
+# Question 15 & Answer 15
+![image](https://user-images.githubusercontent.com/122228333/219864016-fd2053fb-4beb-47d2-9b1a-ef450deb3962.png)
 
 
-# Answer 16
-
-# Question 17
-
-
-# Answer 17
+# Question 16 & Answer 16
+![image](https://user-images.githubusercontent.com/122228333/219864175-55133f4a-532e-414f-8e2e-6c31cbf9b8e3.png)
 
 
-# Question 18
+# Question 17 & Answer 17 
+![image](https://user-images.githubusercontent.com/122228333/219864300-5f051230-930a-422b-8d9e-db41f168609a.png)
+
+
+# Question 18 & Answer 18
+![image](https://user-images.githubusercontent.com/122228333/219864332-e10798ad-4060-4d0c-b9de-3c87e1a6b0bf.png)
+
+
+# Question 19 & Answer 19
+![image](https://user-images.githubusercontent.com/122228333/219864375-ecdb9439-1e95-462a-a303-47cc86ddf69e.png)
+
+
+# Question 20 & Answer 20
+![image](https://user-images.githubusercontent.com/122228333/219864525-3146b71a-f389-4336-85e0-cb622cad65f3.png)
+
+
+# Question 21 & Answer 21
+![image](https://user-images.githubusercontent.com/122228333/219864557-c2cc321c-1ebd-45ef-b9d1-979e8b9507bf.png)
+
+
+# Question 22 & Answer 22
+
 
 
 # Answer 18
