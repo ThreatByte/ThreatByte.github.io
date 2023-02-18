@@ -94,10 +94,11 @@ https://gyazo.com/8739e6ab007e907578731f5f904bcb8c
 
 
 # Question 22 & Answer 22
+![image](https://user-images.githubusercontent.com/122228333/219868372-513a39c9-3670-4184-b48e-80c82b8e792c.png)
 
 
+# Question 23 & Answer 23
 
-# Answer 18
 
 
 # Quesiton 19
