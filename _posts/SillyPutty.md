@@ -13,12 +13,15 @@ title: Silly Putty
 ---
 
 - What is the SHA256 hash of the sample?
-- Run sha256.exe putty.exe
-- 0c82e654c09c8fd9fdf4899718efa37670974c9eec5a8fc18a167f93cea6ee83
+
+- Run sha256.exe putty.exe 0c82e654c09c8fd9fdf4899718efa37670974c9eec5a8fc18a167f93cea6ee83
+
 ![image](https://user-images.githubusercontent.com/122228333/219960702-d8359e1a-d7c2-4f53-9a97-8a421dff34b8.png)
 
 - What architecture is this binary?
+
 - 32 bit
+
 ![image](https://user-images.githubusercontent.com/122228333/219960730-a5af69c8-562b-4119-a888-2384ae1b5d28.png)
 
 - Are there any results from submitting the SHA256 hash to VirusTotal?
@@ -26,21 +29,31 @@ title: Silly Putty
 
 
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
-- No Important Strings when running Floss. Looks like generic Executable.
+
+- No Important Strings when running Floss. Looks like generic putty executable.
 
 - Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
--Some indicators that are makred as suspicious but looks like regular putty. 
+
+-Some indicators that are marked as suspicious but looks like regular putty. 
+
 ![image](https://user-images.githubusercontent.com/122228333/219961591-e5afa8ad-270d-478e-ad2e-07c235b2ac7e.png)
 
 
 - Is it likely that this binary is packed?
+
 - Not Packet Virtual Size and Size of Raw Data Roughly the same.
+
 - ![image](https://user-images.githubusercontent.com/122228333/219961838-35013b40-4eef-4b20-999d-e48292f2a885.png)
+
+
 
 ---
 
 ### Basic Dynamic Analysis
  - Describe initial detonation. Are there any notable occurrences at first detonation? Without internet simulation? With internet simulation?
+ 
+ - 
+ 
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
  - What is the DNS record that is queried at detonation?
  - What is the callback port number at detonation?
