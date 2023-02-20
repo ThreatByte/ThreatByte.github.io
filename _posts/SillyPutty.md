@@ -86,15 +86,29 @@ title: Silly Putty
  
  ![image](https://user-images.githubusercontent.com/122228333/220149863-efa8c0bc-d9d5-40bb-ac02-7f7bf28fbb64.png)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - What is the DNS record that is queried at detonation?
  
- - 
+ - bonus2.corporatebonusapplication.local
  
- 
+ ![image](https://user-images.githubusercontent.com/122228333/220152228-83734977-742a-483a-b063-af9f3077c232.png)
+
+
  - What is the callback port number at detonation?
+ 
+ - 8443
+ 
  - What is the callback protocol at detonation?
+ 
+ - TCP
+ 
  - How can you use host-based telemetry to identify the DNS record, port, and protocol?
+ 
+ - In Windows create record for bonus2.corporatebonusapplication.local then use nc -nvlp port 8443
+ 
  - Attempt to get the binary to initiate a shell on the localhost. Does a shell spawn? What is needed for a shell to spawn?
+ 
+ - Get shell spawn with nc -nvlp port 8443
 
 
 
