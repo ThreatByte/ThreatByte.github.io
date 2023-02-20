@@ -18,19 +18,27 @@ title: Silly Putty
 
 ![image](https://user-images.githubusercontent.com/122228333/219960702-d8359e1a-d7c2-4f53-9a97-8a421dff34b8.png)
 
+---------------------------------------------------------------------------------------------------------------
+
 - What architecture is this binary?
 
 - 32 bit
 
 ![image](https://user-images.githubusercontent.com/122228333/219960730-a5af69c8-562b-4119-a888-2384ae1b5d28.png)
 
+----------------------------------------------------------------------------------------------------------------
+
 - Are there any results from submitting the SHA256 hash to VirusTotal?
+
 ![image](https://user-images.githubusercontent.com/122228333/219960778-3376d89f-648c-4109-95a4-6f3c6a3bc550.png)
 
+---------------------------------------------------------------------------------------------------------------
 
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
 
 - No Important Strings when running Floss. Looks like generic putty executable.
+
+---------------------------------------------------------------------------------------------------------------
 
 - Describe the results of inspecting the IAT for this binary. Are there any imports worth noting?
 
@@ -38,12 +46,15 @@ title: Silly Putty
 
 ![image](https://user-images.githubusercontent.com/122228333/219961591-e5afa8ad-270d-478e-ad2e-07c235b2ac7e.png)
 
+---------------------------------------------------------------------------------------------------------------
 
 - Is it likely that this binary is packed?
 
 - Not Packet Virtual Size and Size of Raw Data Roughly the same.
 
 - ![image](https://user-images.githubusercontent.com/122228333/219961838-35013b40-4eef-4b20-999d-e48292f2a885.png)
+
+---------------------------------------------------------------------------------------------------------------
 
 
 
