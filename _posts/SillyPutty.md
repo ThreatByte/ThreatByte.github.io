@@ -36,7 +36,10 @@ title: Silly Putty
 
 - Describe the results of pulling the strings from this binary. Record and describe any strings that are potentially interesting. Can any interesting information be extracted from the strings?
 
-- No Important Strings when running Floss. Looks like generic putty executable.
+- One Important String Powershell. Looks like generic putty executable.
+
+![image](https://user-images.githubusercontent.com/122228333/220145420-3e14946b-0e34-49ba-83be-6a1f635c9ca2.png)
+
 
 ---------------------------------------------------------------------------------------------------------------
 
@@ -63,10 +66,31 @@ title: Silly Putty
 ### Basic Dynamic Analysis
  - Describe initial detonation. Are there any notable occurrences at first detonation? Without internet simulation? With internet simulation?
  
- - 
+ - Without Internet Simulation Putty comes up followed by a powershell prompted. With Internet Simulation Putty comes up followed by a powershell prompt.
+ 
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  - From the host-based indicators perspective, what is the main payload that is initiated at detonation? What tool can you use to identify this?
+ 
+ - procmon filter process putty.exe 
+ 
+ ![image](https://user-images.githubusercontent.com/122228333/220147330-7528cb06-55db-4afd-b1ea-4b6d50bf79fe.png)
+
+ - filter parent id 
+ 
+ ![image](https://user-images.githubusercontent.com/122228333/220147876-b7ba9138-2c1e-4424-afd0-5f4f0550d287.png)
+ 
+ - Based on Information the string is encoded with base64
+ 
+ - I did not know that you redirect payload to out file and extract file to find the code written in powershell. Learning something new 
+ 
+ ![image](https://user-images.githubusercontent.com/122228333/220149863-efa8c0bc-d9d5-40bb-ac02-7f7bf28fbb64.png)
+
  - What is the DNS record that is queried at detonation?
+ 
+ - 
+ 
+ 
  - What is the callback port number at detonation?
  - What is the callback protocol at detonation?
  - How can you use host-based telemetry to identify the DNS record, port, and protocol?
