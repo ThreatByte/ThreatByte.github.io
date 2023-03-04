@@ -59,5 +59,39 @@ title: Malware Analysis PMAT Labs Notes
 
 - .xlsm Excel Macro
 - Transfer files python -m http.server 80(Flare) wget http://ip flare/sheetsForFinancial.xlsm(remnux)
-- 
+- oledump.py(microsoft suite word, excel, powerpoint) xlsm file name, -s assignment, -S String, --vbadecompresscorrupt
 
+---------------------------------------------------------------------------------------------------------------------
+
+## Word
+
+- docx Word Doc
+- Macro can be embedded inside word document
+
+----------------------------------------------------------------------------------------------------------------------
+
+## Shellcode
+
+- scdbg
+
+----------------------------------------------------------------------------------------------------------------------
+
+## Scripts
+
+- Powershell, VBS
+- Look at Code to determine what it does
+
+------------------------------------------------------------------------------------------------
+
+## Mobile Security Framework
+
+- Used for dynamic analysis on mobile applications
+
+------------------------------------------------------------------------------------------------
+
+## C #
+
+- C # High Level
+- Broken Down From Language -> C# Compiler -> Assembly.exe -> IL*(Creation) -> CLR(Executed) -> OS
+
+------------------------------------------------------------------------------------------------
