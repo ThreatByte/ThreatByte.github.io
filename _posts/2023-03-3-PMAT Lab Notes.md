@@ -40,7 +40,7 @@ title: Malware Analysis PMAT Labs Notes
 ------------------------------------------------------------------------------------------------------------------------
 ## Advanced Static & Dynamic
 - Static:
-  - Decompilers & Dissassemblers
+  - Decompilers & Dissassemblers(Cutter Look at code cant run, but can edit)
   - ASM(Instructions)(Human-readable)
 - Dynamic:
   - Debuggers
