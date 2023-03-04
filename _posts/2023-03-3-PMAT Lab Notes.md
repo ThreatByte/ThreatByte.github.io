@@ -35,4 +35,6 @@ title: Malware Analysis PMAT Labs Notes
 ## Dynamic
 - Run File
 - Host(Does Something Workstation) / Network(Domain)
+- C:\Windows\System32\drivers\etc
+- 
 
