@@ -36,5 +36,20 @@ title: Malware Analysis PMAT Labs Notes
 - Run File
 - Host(Does Something Workstation) / Network(Domain)
 - C:\Windows\System32\drivers\etc
-- 
+
+------------------------------------------------------------------------------------------------------------------------
+## Advanced Static & Dynamic
+- Static:
+  - Decompilers & Dissassemblers
+  - ASM(Instructions)(Human-readable)
+- Dynamic:
+  - Debuggers
+    - 32dbg/64dbg
+    - 
+- CPU Instructions:
+  - mov edx, eax ( mov eax into edx )
+  - Stack Grows Down ( Push Values on top, Pop Bottom)
+  - Eax, Ebx, Ecx, Edx, Ebp(Base Pointer), Eip(Instruction Pointer), Esp(Stack Pointer)
+  - Last In First Out(Stack)
+ 
 
