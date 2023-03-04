@@ -45,7 +45,9 @@ title: Malware Analysis PMAT Labs Notes
 - Dynamic:
   - Debuggers
     - 32dbg/64dbg
-    - 
+    - F9 Run
+    - F8 Move Down Step over
+    - F7 Step into
 - CPU Instructions:
   - mov edx, eax ( mov eax into edx )
   - Stack Grows Down ( Push Values on top, Pop Bottom)
