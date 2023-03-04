@@ -79,5 +79,7 @@ Host-based Indicators: Identify the host-based indicators of this malware.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Use Cutter to locate the killswitch mechanism in the decompiled code and explain how it functions.
 
-
+- Used DBG So i can change the instructions when the program is actually running.
+- Find the URL Set Breakpoint ![image](https://user-images.githubusercontent.com/122228333/222928683-53ab22b0-ca30-4730-a422-7c391f6f54c8.png)
+- Change Test edx edx zf to 1
 
