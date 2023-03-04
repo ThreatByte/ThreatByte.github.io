@@ -93,5 +93,8 @@ title: Malware Analysis PMAT Labs Notes
 
 - C # High Level
 - Broken Down From Language -> C# Compiler -> Assembly.exe -> IL*(Creation) -> CLR(Executed) -> OS
+- dnsspy .net applications
+
+------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------------
