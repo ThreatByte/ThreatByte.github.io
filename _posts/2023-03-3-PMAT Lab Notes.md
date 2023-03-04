@@ -32,5 +32,7 @@ title: Malware Analysis PMAT Labs Notes
 - Import Address Table (Win API)
 
 ------------------------------------------------------------------------------------------------------------------------
-
+## Dynamic
+- Run File
+- Host(Does Something Workstation) / Network(Domain)
 
