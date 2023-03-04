@@ -54,4 +54,10 @@ title: Malware Analysis PMAT Labs Notes
   - Eax, Ebx, Ecx, Edx, Ebp(Base Pointer), Eip(Instruction Pointer), Esp(Stack Pointer)
   - Last In First Out(Stack)
  
+----------------------------------------------------------------------------------------------------------------------
+## XLSM 
+
+- .xlsm Excel Macro
+- Transfer files python -m http.server 80(Flare) wget http://ip flare/sheetsForFinancial.xlsm(remnux)
+- 
 
