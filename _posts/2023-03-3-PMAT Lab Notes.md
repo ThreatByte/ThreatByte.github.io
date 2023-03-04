@@ -15,5 +15,22 @@ title: Malware Analysis PMAT Labs Notes
 - service_bind_address 0.0.0.0
 - dns_default_ip 192.168.0.4
 
+-------------------------------------------------------------------------------------------------------------------------
+
+## Basic Static
+- Hash File
+- Threat Intelligence Virus Total
+- Strings(Floss, Strings)
+- PE View(Analyze Portable Executables), pestudio(updated)
+- CAPA(Detect Malicious Functions Program)
+
+------------------------------------------------------------------------------------------------------------------------
+
+## PE
+- Image_File_Header Compile Time Time Date Stamp
+- Virtual Size(Amount of Data on Disk Binary Run) & Size Raw Data
+- Import Address Table (Win API)
+
+------------------------------------------------------------------------------------------------------------------------
 
 
