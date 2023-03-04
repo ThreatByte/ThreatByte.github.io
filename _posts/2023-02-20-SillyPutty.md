@@ -5,7 +5,7 @@ title: Silly Putty
 
 ## References
 -PMAT LABS
--Silly Putty
+-Silly Putty Challenge 1
 
 ## Challenge Questions:
 
