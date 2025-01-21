@@ -25,7 +25,7 @@ A malicious file called File Action Required IT System Upgrade.eml was opened wh
 
 The user opened the phishing email Action Required IT System Upgrade.eml on 2024-08-18 16:31:58 UTC. 
 
-![[Part1-WORKSTATION - KG Distribution - XINTRA - Brave 1.png]]
+![image][Part1-WORKSTATION - KG Distribution - XINTRA - Brave 1.png]]
 
 
 Remote administration tool dwgagent.exe was downloaded to gain a foothold on the system after File Action Required IT System Upgrade.eml was opened this occured on 2024-08-18 16:33:31 UTC. The IP address that the attacker used to download OfficeUPgrade.exe was 64.23.144.215 on port 8888 this IP address was flagged by virus total as malicious.
