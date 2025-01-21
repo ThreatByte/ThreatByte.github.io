@@ -4,11 +4,15 @@ title: Xintra KG Distribution Writeup
 ---
 
 ## References
-https://www.xintra.org/labs
+[https://www.xintra.org/labs](https://www.xintra.org/labs)
+
 https://www.youtube.com/@13Cubed
+
 https://attack.mitre.org/tactics/enterprise/
+
 https://github.com/mandiant/SharPersist
-https://www.ninjaone.com/it-hub/endpoint-management/what-is-a-windows-minidump-file/
+
+[https://www.ninjaone.com/it-hub/endpoint-management/what-is-a-windows-minidump-file/](https://www.ninjaone.com/it-hub/endpoint-management/what-is-a-windows-minidump-file/)
 
 ## Scoping
 Last week, Patricia Bethel started her new job at KG Distribution. Amid the rush of HR and other onboarding tasks, Patricia received an email from IT Support urging her to complete an important task. Trusting the source, Patricia carefully and diligently followed the instructions before continuing with her workday.
@@ -62,5 +66,62 @@ The earliest execution of the remote administration dwagent.exe running on the s
 OfficeUPgrade.exe maintained persistence on the workstation by editing the registry key HKLM\Software\Microsoft\Windows\CurrentVersion\Run.
 
 ![Part 7](https://github.com/user-attachments/assets/64ba8c15-2220-45d1-8b22-91132de2d0f3)
+
+
+## Analysis Summary Server
+
+A malicious file called rGARTERny.exe was found on the server. The location of the file was in the temp directory. Service was created called officeupgradeservice. A encoding occurred on power shell process which was the child process of rGARTERny.exe. rGARTERny.exe persisted on the system by targeting the startup folder. The threat actor attempted to use a tool called SharpPersist to stay undetected on system. Threat actor used command and control server silver to connect to system and ex filtrate data by targeting ntds.dit, and SYSTEM.
+
+## Execution
+
+rGARTERny.exe when executed parent process was service.exe. Threat actor created a new service called officeupgradeservice. From the parent process rGARTERny.exe a child process was spawned called powershell the command was encoded using UTF8. 
+
+![Serv 1](https://github.com/user-attachments/assets/15c56877-0b0a-4e01-a34c-4dbd17baf651)
+
+![Serv 1 1](https://github.com/user-attachments/assets/43841c6a-2863-47b1-81ba-193ff32182d8)
+
+![Serv 1 2](https://github.com/user-attachments/assets/0e54be8f-4761-4148-bf31-ded79eef9bdf)
+
+![Serv 2](https://github.com/user-attachments/assets/79ae5aa1-c34a-421f-aa96-9af7da7e7aed)
+
+![Serv 2 1](https://github.com/user-attachments/assets/b8e75c67-503c-40de-bb47-764266e301f3)
+
+![Serv 2 2](https://github.com/user-attachments/assets/95191093-b3ce-4a8a-ad08-f3a4cf608103)
+
+![Serv 2 3](https://github.com/user-attachments/assets/9d2126be-379c-4f24-aaad-1c741c1930a8)
+
+
+
+## Persistence
+
+The Threat actor maintained persistence by targeting the Startup folder. A malicious binary called OfficeUpgrade was found in the startup folder. The threat actor attempted to use a persistence tool called SharpPersist which is a red team tool. Finding SharpPersist was difficult had to look in the minidump.dmp file which is a file that is created when a workstation or server runs into a error that is caused by Windows Blue Screen of Death.
+
+SharpPersist - https://github.com/mandiant/SharPersist
+minidump.dmp - https://www.ninjaone.com/it-hub/endpoint-management/what-is-a-windows-minidump-file/
+
+![Serv 2 4](https://github.com/user-attachments/assets/854dd6dd-6a3f-46dc-bd02-342dba8b2936)
+
+![Serv 2 5](https://github.com/user-attachments/assets/445e989d-cd4d-44bd-89dc-d0d6a6c3fbfd)
+
+![Serv 2 6](https://github.com/user-attachments/assets/4297888f-8913-4c44-be4f-8a0116782aaf)
+
+
+
+## Command and Control
+
+rGARTERny.exe was flagged by Yara rule that stated rGARTERny.exe is a command and control server called Silver. rGARTERny.exe connected to the server from a remote ip address 64.23.144.215 and port number 8888. 
+
+![Serv 2 7](https://github.com/user-attachments/assets/cdf67dc9-1219-486c-8e7b-f5841b4e7c3c)
+
+
+## Exfiltration
+
+Threat actor attempted to steal ntds.dit and SYSTEM files from the server. The ntds.dit file contains active directory information about users and password hashes. ntds.dit exfil occured on 2024-08-18 18:04:56 UTC and SYSTEM exfil occured 2024-08-18 18:06:07 UTC.
+
+ntds.dit - https://blog.netwrix.com/2021/11/30/extracting-password-hashes-from-the-ntds-dit-file/
+
+
+![Serv 2 8](https://github.com/user-attachments/assets/d1c66300-f113-4e55-b3fd-25a6e7097dbc)
+
 
 
