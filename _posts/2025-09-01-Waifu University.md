@@ -46,13 +46,13 @@ The link shows you references to Entra ID authentication and error codes. The re
 
 There was only one invalid logon attempt on 2024-02-28 12:00 compared to thirty invalid logon attempts on 2024-03-03 00:00:00. 
 
-![[Lab 1.png]]  
+<img width="1918" height="916" alt="Lab 1" src="https://github.com/user-attachments/assets/28bff0d9-8bdf-4501-874a-da81f77a5739" />
 
 Elastic Query : azure.activitylogs.result_type: "50126"
 
 The user we are going to be focusing on is Kurtis Scanlan based off of the Scoping Notes. There was four failed login attempts. 
 
-![[Lab1.1.png]] 
+<img width="1919" height="914" alt="Lab1 1" src="https://github.com/user-attachments/assets/a349f6db-7737-43c4-885b-6811d69924e1" />
 
 Elastic Query: azure.activitylogs.result_type: "50126" and azure.activitylogs.identity_name: Kurtis Scanlan. To view the userAgent click on the cell.
 
