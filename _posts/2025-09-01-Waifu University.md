@@ -16,14 +16,16 @@ To find this information i extracted all the Triage Images and looked through th
 
 rfosusl6qdm4zhoqbqnjxaloprld2qz35u77h4aap46rhwkouejsooqd.onion
 
-![[Pasted image 20250831070231.png]]
+<img width="1921" height="915" alt="Downloads2" src="https://github.com/user-attachments/assets/b6c714b5-9017-4347-96cd-f0c2ba315bb2" />
+
 
 -------------------------------------------------------------------------------
 What was the file name of the ransom note left behind by the ransomware?
 
 The file name that was left behind from the threat actor was "RECOVER-kh1ftzx-FILES.txt".  We know this because the threat actor has requested to victim to go to the .onion url to further communications.
 
-![[Pasted image 20250831070302.png]]
+<img width="875" height="470" alt="Downloads" src="https://github.com/user-attachments/assets/9bc15440-bfd2-4ad7-9a59-6ec8a0fedbcb" />
+
 --------------------------------------------------------------------------------------------------------------------
 What was the file extension the ransomware added to encrypted files?
 
